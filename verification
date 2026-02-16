@@ -4,9 +4,17 @@ from sympy import *
 april_sales = 48
 may_sales = april_sales / 2
 total_sales = april_sales + may_sales
-# Assert to ensure logic holds
 assert total_sales == 72
 print(f"Verification Success: {total_sales} clips.")
 # output: Verification Success: 72.0 clips.
 
-  
+Question 2
+
+from sympy import *
+hourly_rate = 12
+minutes_worked = 50
+rate_per_minute = Rational(hourly_rate, 60)
+total_earnings = minutes_worked * rate_per_minute
+assert total_earnings == 10
+print(f"Verification Success: ${float(total_earnings)}")
+# output: Verification Success: $10.0

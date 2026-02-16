@@ -1,8 +1,17 @@
 [
   {
-    "id": "gsm8k_day2_001",
+    "id": "gsm8k_001",
     "question": "Natalia sold 48 clips in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?",
     "cot": "Step 1: Natalia sold 48 clips in April. Step 2: In May, she sold half as many clips as in April, which is 24 clips. Step 3: The total number of clips sold in April and May is 48 plus 24, which equals 72.",
     "final_answer": "72"
+  }
+]
+
+[
+  {
+    "id": "gsm8k_002",
+    "question": "Weng earns 12 dollars an hour for babysitting. Yesterday, she did 50 minutes of babysitting. How much did she earn?",
+    "cot": "Step 1: Weng earns 12 dollars for 60 minutes. Step 2: The rate per minute is 12 divided by 60, which is 0.20 dollars per minute. Step 3: For 50 minutes, she earns 50 times 0.20 dollars, which equals 10 dollars.",
+    "final_answer": "10"
   }
 ]

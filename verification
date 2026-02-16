@@ -1,0 +1,12 @@
+Question 1 
+
+from sympy import *
+april_sales = 48
+may_sales = april_sales / 2
+total_sales = april_sales + may_sales
+# Assert to ensure logic holds
+assert total_sales == 72
+print(f"Verification Success: {total_sales} clips.")
+# output: Verification Success: 72.0 clips.
+
+  

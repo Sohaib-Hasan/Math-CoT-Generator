@@ -1,15 +1,35 @@
-Question 1: Natalia sold 48 clips in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
+Question 1: Natalia sold 48 clips in April, and then she sold half as many clips in May.  
+How many clips did Natalia sell altogether in April and May?
 
-Solution: We have to find the total number of clips sold in April and May.
+Solution: 
+The goal is to find the total number of clips sold in two months: April and May. 
+Amount sold in April is already given as $48$. 
+Amount sold in May is half of the April sales ($48 / 2$). 
+Total sales = April Sales + May Sales. 
 
-Step 1: Natalia sold \(48\) clips in April.
+Calculate the number of clips sold in May: Natalia sold half as many as in April.
+$$ \text{May Sales} = \frac{\text{April Sales}}{2} = \frac{48}{2} = 24 $$ 
 
-Step 2: In May, she sold half as many clips as in April.
+Calculate total clips sold: Sum the sales from both months to find the total: 
+$$ \text{Total Sales} = \text{April Sales} + \text{May Sales} $$ $$ \text{Total Sales} = 48 + 24 = 72 $$ 
 
-\[\text{May sales}=\frac{48}{2}=24\]
+Conclusion: Natalia sold a total of 72 clips altogether.
 
-Step 3: Total sales
+Question 2: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?
 
-\[\text{Total clips} = 48 + 24 = 72\]
+Solution:
 
-Final Answer: Natalia sold \(72\) clips altogether.
+Goal: Calculate total earnings for a 50-minute session.
+Given rate: $$12$ per hour ($60$ minutes).
+Strategy:
+Convert the hourly rate to a per-minute rate.
+
+Multiply the per-minute rate by the total minutes worked ($50$ minutes).
+
+Determine the rate per minute: Since there are $60$ minutes in one hour: 
+$$ \text{Rate per minute} = \frac{\text{Hourly Rate}}{60} = \frac{12}{60} = $0.20 \text{ per minute} $$
+
+Calculate total earnings for 50 minutes: Multiply the per-minute rate by the time duration: 
+$$ \text{Total Earnings} = 50 \times 0.20 = $10 $$
+
+Conclusion: Weng earned $10 for 50 minutes of babysitting.

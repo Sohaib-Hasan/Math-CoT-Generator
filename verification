@@ -18,3 +18,22 @@ total_earnings = minutes_worked * rate_per_minute
 assert total_earnings == 10
 print(f"Verification Success: ${float(total_earnings)}")
 # output: Verification Success: $10.0
+
+Question 3
+
+from sympy import *
+days = 5
+regular_hours_limit = 8
+total_daily_hours = 10
+base_rate = 18
+overtime_rate = base_rate + Rational(base_rate, 2)
+overtime_hours = total_daily_hours - regular_hours_limit
+
+weekly_regular = days * regular_hours_limit * base_rate
+weekly_overtime = days * overtime_hours * overtime_rate
+grand_total = weekly_regular + weekly_overtime
+
+# Verification assert
+assert grand_total == 990
+print(f"Verification Success: Total weekly pay is ${grand_total}")
+# output: Verification Success: Total weekly pay is $990

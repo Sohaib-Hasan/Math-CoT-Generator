@@ -33,3 +33,29 @@ Calculate total earnings for 50 minutes: Multiply the per-minute rate by the tim
 $$ \text{Total Earnings} = 50 \times 0.20 = $10 $$
 
 Conclusion: Weng earned $10 for 50 minutes of babysitting.
+
+Question 3: Tina makes $18.00 an hour. If she works more than 8 hours per shift, she is eligible for overtime, which is paid by your hourly wage + 1/2 your hourly wage. If she works 10 hours every day for 5 days, how much money does she make?
+
+Solution:
+
+Goal: Calculate total weekly earnings (5 days) including overtime.
+
+Conditions:
+
+Regular rate: $$18/hr$ for the first 8 hours/shift.
+Overtime rate: $$18 + (0.5 \times 18) = $27/hr$ for hours exceeding 8 hours/shift.
+Daily Workload: 10 hours total = 8 Regular hours + 2 Overtime hours.
+
+Total Earnings = (Daily Regular Pay + Daily Overtime Pay) $\times$ 5 days.
+
+Calculate Daily Regular Earnings: For the first 8 hours of the shift: 
+$$ \text{Regular Daily Pay} = 8 \text{ hours} \times $18/\text{hr} = $144 $$
+
+Calculate Daily Overtime Rate and Earnings: The overtime rate is the regular wage plus half: 
+$$ \text{Overtime Rate} = 18 + \left(\frac{1}{2} \times 18\right) = 18 + 9 = $27/\text{hr} $$ 
+Since she works 10 hours total, she has $10 - 8 = 2$ overtime hours daily. 
+$$ \text{Overtime Daily Pay} = 2 \text{ hours} \times $27/\text{hr} = $54 $$
+
+Calculate Weekly Total: Total daily pay is $$144 + $54 = $198$. For 5 days: $$ \text{Total Weekly Pay} = $198 \times 5 = $990 $$
+
+Conclusion: Tina makes a total of $990 for the 5-day work week.

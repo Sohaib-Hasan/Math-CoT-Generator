@@ -37,3 +37,17 @@ grand_total = weekly_regular + weekly_overtime
 assert grand_total == 990
 print(f"Verification Success: Total weekly pay is ${grand_total}")
 # output: Verification Success: Total weekly pay is $990
+
+Question 4
+
+from sympy import *
+
+red = 3
+blue = 5
+total = red + blue
+
+prob_not_red = Rational(blue, total)
+
+assert prob_not_red == Rational(5, 8)
+print(f"Verification Success: {prob_not_red}")
+#output: Verification Success: 5/8

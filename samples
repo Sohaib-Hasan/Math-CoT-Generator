@@ -59,3 +59,26 @@ $$ \text{Overtime Daily Pay} = 2 \text{ hours} \times $27/\text{hr} = $54 $$
 Calculate Weekly Total: Total daily pay is $$144 + $54 = $198$. For 5 days: $$ \text{Total Weekly Pay} = $198 \times 5 = $990 $$
 
 Conclusion: Tina makes a total of $990 for the 5-day work week.
+
+
+Question 4: A bag has 3 red and 5 blue marbles. If I pick one, what is the probability it is NOT red?
+
+Solution:
+
+Goal: Calculate the probability of selecting a marble that is not red.
+
+Givens: 3 Red marbles, 5 Blue marbles.
+
+Logic: Total marbles = sum of all categories. Probability of "NOT Red" is the same as the probability of "Blue" in this two-color system.
+
+Formula: $P(\text{NOT Red}) = \frac{\text{Number of Blue Marbles}}{\text{Total Marbles}}$.
+
+Calculate total number of marbles (Sample Space): Summing the red and blue marbles gives the total size of the bag: 
+$$ \text{Total} = 3 \text{ red} + 5 \text{ blue} = 8 \text{ marbles} $$
+
+Identify marbles that are NOT red: According to the problem, the marbles that are not red are the blue ones: 
+$$ \text{NOT Red Count} = 5 \text{ (blue marbles)} $$
+
+Calculate the final probability: Divide the favorable outcomes by the total outcomes: $$ P(\text{NOT Red}) = \frac{5}{8} $$
+
+Conclusion: The probability that the marble picked is not red is 5/8.

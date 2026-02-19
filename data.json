@@ -24,3 +24,12 @@
     "final_answer": "990"
   }
 ]
+
+[
+  {
+    "id": "prob_004",
+    "question": "A bag has 3 red and 5 blue marbles. If I pick one, what is the probability it is NOT red?",
+    "cot": "Step 1: The total number of marbles is the sum of red and blue marbles, which is 3 + 5 = 8. Step 2: The marbles that are not red are the blue marbles, and there are 5 of them. Step 3: The probability of selecting a marble that is not red is the number of favorable outcomes divided by the total number of outcomes, which is 5/8.",
+    "final_answer": "5/8"
+  }
+]

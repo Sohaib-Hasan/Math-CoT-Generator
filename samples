@@ -82,3 +82,31 @@ $$ \text{NOT Red Count} = 5 \text{ (blue marbles)} $$
 Calculate the final probability: Divide the favorable outcomes by the total outcomes: $$ P(\text{NOT Red}) = \frac{5}{8} $$
 
 Conclusion: The probability that the marble picked is not red is 5/8.
+
+Question 5:
+Janice can type $6$ sentences per minute. Today at work, Janice continued working on a paper she started typing yesterday. 
+She typed for $20$ minutes, took a break, and typed $15$ minutes longer. She then had to erase $40$ sentences she had typed incorrectly. 
+After a meeting, she typed for $18$ minutes more. In all, the paper had $536$ sentences by the end of today. 
+How many sentences did she start with today?
+
+Solution:
+
+<think>
+* Goal: Find sentences typed yesterday.
+* Givens: Speed = 6 sent/min, Work sessions = 20+15+18 mins, Removed = 40, Total = 536.
+* Strategy: Calculate today's net sentences, subtract from total.
+* Formula: All sentences on paper - today's correct sentences 
+</think>
+
+We know that Janice total typing speed is $6$ sentences per minute
+
+Step $1$: She worked $20$ minutes before break and write $20*6 = 120$ sentences. 
+After the break she wrote for $15$ minutes = $15*6 = 90$ sentences. 
+
+Step $2$: She removed $40$ incorrect sentences = $210-40=170$ sentences left  
+Step $3$: She worked more and writes $18$ minutes more = $18*6=108$ sentences  
+Step $4$: Her today's total progress on paper = $120+90-40+108=278$ sentences  
+Step $5$: Total sentences on paper including yesterday and today = $536$  
+Conclusion: She wrote $536-278=258$ sentences on paper yesterday
+
+

@@ -110,3 +110,19 @@ Step $5$: Total sentences on paper including yesterday and today = $536$
 Conclusion: She wrote $536-278=258$ sentences on paper yesterday
 
 
+Question: There are some jelly beans in a jar. Three fourths of the jelly beans are red, and one quarter of the red jelly beans are coconut flavored. If $750$ jelly beans are coconut flavored, how many jelly beans are there in the jar?
+
+Solution:
+
+Goal: Find total number of jelly beans in the jar.
+Givens: $\frac{3}{4}$ are red; $\frac{1}{4}$ of red are coconut flavored; Coconut count = $750$.
+Strategy: 1. Find red count ($750 \times 4$); 2. Find total count (Red count $\div \frac{3}{4}$).
+
+Calculate the total red jelly beans: Since coconut flavored beans are $\frac{1}{4}$ of red beans: 
+$$ \text{Red Jelly Beans} = 750 \times 4 = 3,000 $$
+
+Calculate the total jelly beans in the jar: Since red beans are $\frac{3}{4}$ of the total: 
+$$ \text{Total Jelly Beans} = 3,000 \div \frac{3}{4} = 3,000 \times \frac{4}{3} = 4,000 $$
+
+Conclusion: There are a total of 4,000 jelly beans in the jar.
+####4000

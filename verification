@@ -82,3 +82,20 @@ total = red / Rational(3, 4)
 assert total == 4000
 print(f"Verification Success: {total} jelly beans in the jar.")
 #output: Verification Success: 4000 jelly beans in the jar.
+
+Question 7
+from sympy import *
+y = symbols('y')
+
+first_term = Rational(-1, 3)
+second_term = y + 2
+third_term = 4*y
+
+eq = Eq(second_term - first_term, third_term - second_term)
+
+solution = solve(eq, y)[0]
+
+assert second_term.subs(y, solution) - first_term == third_term.subs(y, solution) - second_term.subs(y, solution), "Arithmetic sequence difference does not match!"
+
+print(f"Value of y: {solution}) 
+#output: Value of y: 13/6

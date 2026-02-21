@@ -42,3 +42,12 @@
     "final_answer": "258"
   }
 ]
+
+[
+  {
+    "id": "gsm8k_006",
+    "question": "There are some jelly beans in a jar. Three fourths of the jelly beans are red, and one quarter of the red jelly beans are coconut flavored. If 750 jelly beans are coconut flavored, how many jelly beans are there in the jar?",
+    "cot": "Step 1: Coconut flavored jelly beans are one quarter of the red jelly beans. So the number of red jelly beans is 750 × 4 = 3000. Step 2: Red jelly beans make up three fourths of the total jelly beans. So the total number of jelly beans is 3000 ÷ (3/4) = 3000 × 4/3 = 4000.",
+    "final_answer": "4000"
+  }
+]

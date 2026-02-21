@@ -33,3 +33,12 @@
     "final_answer": "5/8"
   }
 ]
+
+[
+  {
+    "id": "gsm8k_005",
+    "question": "Janice can type 6 sentences per minute. Today at work, she typed for 20 minutes, then 15 minutes, erased 40 sentences, and later typed for 18 more minutes. By the end of today, the paper had 536 sentences. How many sentences did she start with today?",
+    "cot": "Step 1: In 20 minutes, Janice typed 20 × 6 = 120 sentences. Step 2: In 15 minutes, she typed 15 × 6 = 90 sentences. Step 3: She erased 40 sentences, so net so far is 120 + 90 − 40 = 170 sentences. Step 4: In the last 18 minutes, she typed 18 × 6 = 108 sentences. Step 5: Total sentences added today is 170 + 108 = 278 sentences. Step 6: She started today with 536 − 278 = 258 sentences.",
+    "final_answer": "258"
+  }
+]

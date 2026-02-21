@@ -70,3 +70,15 @@ yesterday = total - today_total
 assert yesterday == 258
 print(f"Verification Success: {yesterday} sentences yesterday.")
 #output: Verification Success: 258 sentences yesterday.
+
+Question 6
+
+from sympy import *
+
+coconut = Integer(750)
+red = coconut * 4
+total = red / Rational(3, 4)
+
+assert total == 4000
+print(f"Verification Success: {total} jelly beans in the jar.")
+#output: Verification Success: 4000 jelly beans in the jar.

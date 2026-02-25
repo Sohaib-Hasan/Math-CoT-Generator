@@ -116,6 +116,17 @@ value = expr_simplified.subs({
 assert expr_simplified == 5*a**2 - 9*a*b + 22
 assert value == 36
 
-print("Simplified expression:", expr_simplified)
-print("Final value:", value)
+print(f"Simplified expression: {expr_simplified}")
+print(f"Final value: value")
+
+Question 9
+
+from sympy import *
+
+c = Rational(1, 3)
+value = simplify(2*c**2 - 1)
+
+assert value == Rational(-7, 9)
+
+print(f"cos(2π/3 - 2α) = {value}")
 

@@ -78,3 +78,12 @@
     "final_answer": "-7/9"
   }
 ]
+
+[
+  {
+    "id": "aimo_010",
+    "question": "Let p = 2^3009, q = 3^2006, and r = 5^1003. Which of the following statements is true? (A) p < q < r, (B) p < r < q, (C) q < p < r, (D) r < p < q, (E) q < r < p.",
+    "cot": "Step 1: Write all powers with the same exponent. p = 2^3009 = (2^3)^1003 = 8^1003 and q = 3^2006 = (3^2)^1003 = 9^1003, while r = 5^1003. Step 2: Now compare 8^1003, 9^1003, and 5^1003. Step 3: Since all three have the same exponent 1003, compare their bases only. Step 4: We have 5 < 8 < 9, so 5^1003 < 8^1003 < 9^1003. Step 5: Therefore, r < p < q.",
+    "final_answer": "D"
+  }
+]

@@ -288,3 +288,77 @@ Conclusion:
 \]
 
 #### -7/9
+
+Question 10
+
+Q 10. 
+
+Let \( p = 2^{3009}, q = 3^{2006}, \) and \( r = 5^{1003} \). Which of the following statements is true?
+
+(A) \( p < q < r \)  
+(B) \( p < r < q \)  
+(C) \( q < p < r \)  
+(D) \( r < p < q \)  
+(E) \( q < r < p \)
+
+Solution:
+
+<think>
+Goal: Find the correct option from A to E  
+
+Given :
+\[
+p = 2^{3009}, \quad q = 3^{2006}, \quad r = 5^{1003}
+\]
+
+Strategy:  
+Convert all values of \(p,q,r\) in same exponents and then compare bases.
+</think>
+
+Step 1: Convert the exponent values of \(p\) and \(q\) in terms of \(1003\). We can't reduce \(r\)'s exponent because it is already at the lowest exponent among the three.
+
+\[
+p = 2^{3009} = 2^{3 \times 1003} = (2^3)^{1003} = 8^{1003}
+\]
+
+\[
+q = 3^{2006} = 3^{2 \times 1003} = (3^2)^{1003} = 9^{1003}
+\]
+
+Step 2: Now compare the magnitudes:  
+To compare \( p, q, \) and \( r \), we now look at the factors \(8, 9,\) and \(5\) which are:
+
+\[
+8^{1003}, \quad 9^{1003}, \quad \text{and} \quad 5^{1003}
+\]
+
+Step 3: Calculate the base values of \(p,q\) and \(r\) we get:
+
+\[
+8 = 2^3, \qquad 9 = 3^2, \qquad 5
+\]
+
+Step 4: Since the common exponent in all terms is \(1003\), we compare the bases
+
+\[
+5 < 8 < 9
+\]
+
+Step 5: Therefore, since all exponents are equal, the order of the original terms follows the order of their bases:
+
+\[
+5^{1003} < 8^{1003} < 9^{1003}
+\]
+
+\[
+r < p < q
+\]
+
+Conclusion:  
+Thus, the true statements are \(r < p < q \).
+
+\[
+\boxed{D}
+\]
+
+#### D

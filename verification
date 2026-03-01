@@ -151,3 +151,27 @@ print("Correct option: D")
 #output: Order verified:
 #r < p < q
 #Correct option: D
+
+Question 11
+
+from sympy import *
+
+x, y = symbols('x y')
+
+y_val = -2
+target = Rational(1, 1000)  # 0.001 as exact fraction
+
+eq = Eq((x - 2*y)**y, target)
+
+eq_sub = eq.subs(y, y_val)
+
+solutions = solve(eq_sub, x)
+solutions_simplified = [sol.simplify() for sol in solutions]
+
+print("Possible values of x:")
+for sol in solutions_simplified:
+    print(sol)
+
+#output: Possible values of x:
+#-4 + 10*sqrt(10)
+#-10*sqrt(10) - 4

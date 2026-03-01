@@ -363,11 +363,7 @@ Thus, the true statements are \(r < p < q \).
 
 #### D
 
-Got it! Here’s your solution fully in proper LaTeX syntax using `$...$` and `\frac`, without changing anything else:
-
----
-
-Question
+Question 11
 
 Given that $x$ and $y=-2$, the value of $(x-2y)^y$ is $0.001$. What is the value of $x$?
 

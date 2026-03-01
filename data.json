@@ -58,5 +58,10 @@
     "question": "Let p = 2^3009, q = 3^2006, and r = 5^1003. Which of the following statements is true? (A) p < q < r, (B) p < r < q, (C) q < p < r, (D) r < p < q, (E) q < r < p.",
     "cot": "Step 1: Write all powers with the same exponent. p = 2^3009 = (2^3)^1003 = 8^1003 and q = 3^2006 = (3^2)^1003 = 9^1003, while r = 5^1003. Step 2: Now compare 8^1003, 9^1003, and 5^1003. Step 3: Since all three have the same exponent 1003, compare their bases only. Step 4: We have 5 < 8 < 9, so 5^1003 < 8^1003 < 9^1003. Step 5: Therefore, r < p < q.",
     "final_answer": "D"
-  }
-]
+  },
+  {
+    "id": "aimo_011",
+    "question": "Given that x and y = -2, the value of (x - 2y)^y is 0.001. What is the value of x?",
+    "cot": "Step 1: Substitute y = -2 into the equation: (x - 2(-2))^{-2} = 0.001 → (x + 4)^{-2} = 0.001. Step 2: Rewrite 0.001 as 1/1000: (x + 4)^{-2} = 1/1000 → 1/(x + 4)^2 = 1/1000. Step 3: Cross multiply: (x + 4)^2 = 1000. Step 4: Take square roots: x + 4 = ±√1000 = ±10√10. Step 5: Solve for x: x = -4 ± 10√10. Both solutions satisfy the original equation.",
+    "final_answer": "-4 ± 10√10"
+  },

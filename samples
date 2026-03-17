@@ -442,3 +442,49 @@ $$\boxed{-4 \pm 10\sqrt{10}}$$
 
 ####-4 ± 10√10
 
+Question 12
+Solve the quadratic equation for $x$:
+$$ 2x^2 + 8x - 10 = 0 $$
+
+<think>
+Goal: Find the value of $x$.
+Given: An equation $$ 2x^2 + 8x - 10 = 0 $$
+Strategy: Divide both sides of the equation by 2 and then simplify
+</think>
+
+Detailed Reasoning
+Step 1: Equation Simplification
+We observe that all coefficients ($2, 8, -10$) are divisible by $2$. Dividing the entire equation by $2$ we get:
+$$ x^2 + 4x - 5 = 0 $$
+
+Step 2: Identification of Coefficients
+For the standard form $ax^2 + bx + c = 0$, we identify:
+
+$a = 1$
+$b = 4$
+$c = -5$
+
+Step 3: Application of the Quadratic Formula
+We substitute the identified values into the Quadratic Formula:
+
+\begin{align*} 
+x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\ 
+&= \frac{-(4) \pm \sqrt{(4)^2 - 4(1)(-5)}}{2(1)} \\
+&= \frac{-4 \pm \sqrt{16 + 20}}{2} \
+\ &= \frac{-4 \pm \sqrt{36}}{2} 
+\end{align*}
+
+Step 4: Solving for Roots
+Now, we calculate the two possible values for $x$:
+
+\begin{align*} 
+x &= \frac{-4 \pm 6}{2} \\
+x_1 &= \frac{-4 + 6}{2} = \frac{2}{2} = 1 \\ 
+x_2 &= \frac{-4 - 6}{2} = \frac{-10}{2} = -5 
+\end{align*}
+
+Conclusion
+The equation $2x^2 + 8x - 10 = 0$ has two distinct real roots:
+Final Answer: $\boxed{x = 1}$ and $\boxed{x = -5}$
+####1,-5
+

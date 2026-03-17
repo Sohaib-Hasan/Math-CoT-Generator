@@ -65,3 +65,11 @@
     "cot": "Step 1: Substitute y = -2 into the equation: (x - 2(-2))^{-2} = 0.001 → (x + 4)^{-2} = 0.001. Step 2: Rewrite 0.001 as 1/1000: (x + 4)^{-2} = 1/1000 → 1/(x + 4)^2 = 1/1000. Step 3: Cross multiply: (x + 4)^2 = 1000. Step 4: Take square roots: x + 4 = ±√1000 = ±10√10. Step 5: Solve for x: x = -4 ± 10√10. Both solutions satisfy the original equation.",
     "final_answer": "-4 ± 10√10"
   },
+[
+  {
+    "id": "gsm8k_012",
+    "question": "Solve the quadratic equation for x: 2x^2 + 8x - 10 = 0.",
+    "cot": "Step 1: Divide the equation by 2: x^2 + 4x - 5 = 0. Step 2: Identify coefficients a = 1, b = 4, c = -5. Step 3: Apply the quadratic formula: x = [-4 ± √(4^2 - 4(1)(-5))] / 2. Step 4: Simplify: x = [-4 ± √(16 + 20)] / 2 = [-4 ± √36] / 2. Step 5: Compute roots: x = (-4 + 6)/2 = 1 and x = (-4 - 6)/2 = -5.",
+    "final_answer": "1, -5"
+  }
+]

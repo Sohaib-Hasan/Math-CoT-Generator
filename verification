@@ -160,18 +160,27 @@ x, y = symbols('x y')
 
 y_val = -2
 target = Rational(1, 1000)  # 0.001 as exact fraction
-
 eq = Eq((x - 2*y)**y, target)
-
 eq_sub = eq.subs(y, y_val)
 
 solutions = solve(eq_sub, x)
-solutions_simplified = [sol.simplify() for sol in solutions]
 
-print("Possible values of x:")
-for sol in solutions_simplified:
-    print(sol)
+print(f"Possible values of x:{solutions}")
 
 #output: Possible values of x:
 #-4 + 10*sqrt(10)
 #-10*sqrt(10) - 4
+
+Question 12
+
+from sympy import *
+
+x = symbols('x')
+eq = Eq(2*x**2 + 8*x - 10, 0)
+solutions = solve(eq, x)
+
+assert set(solutions) == {1, -5}
+
+print(f"Solutions of the equation are: {solutions}")
+
+#output: Solutions of the equation are: -5, 1
